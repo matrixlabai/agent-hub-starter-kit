@@ -1,0 +1,34 @@
+{
+  "schema": "agent-hub-starter.v1",
+  "status": "template",
+  "entrypoints": {
+    "agent": "AGENTS.md",
+    "human": "README.md",
+    "boot": "hub/protocols/BOOT.md",
+    "setup": "setup.ps1",
+    "verification": "doctor.ps1"
+  },
+  "zones": [
+    "hub",
+    "domains",
+    "skills",
+    "knowledge",
+    "orchestrator",
+    "platform",
+    "env"
+  ],
+  "skill_categories": [
+    "controls",
+    "os",
+    "general"
+  ],
+  "local_only": [
+    "env/local.env",
+    "env/REGISTRY.md",
+    "env/secrets/",
+    "hub/memory/SESSION_STATE.md",
+    "hub/memory/sessions/",
+    "orchestrator/routes.local.json",
+    "orchestrator/jobs/"
+  ]
+}

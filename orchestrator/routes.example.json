@@ -1,0 +1,12 @@
+{
+  "schema": "agent-hub.routes.v1",
+  "routes": {
+    "example-local-worker": {
+      "enabled": false,
+      "command": "replace-with-local-command",
+      "arguments": [],
+      "prompt_mode": "stdin",
+      "reasoning_levels": ["low", "medium", "high"]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+# Local credentials and account state
+**/.env
+**/.env.*
+!env/.env.example
+env/local.env
+env/REGISTRY.md
+env/secrets/
+**/*token*.json
+**/*credentials*.json
+
+# Local memory and task state
+hub/memory/SESSION_STATE.md
+hub/memory/sessions/
+orchestrator/routes.local.json
+orchestrator/jobs/
+
+# Temporary and generated output
+*.log
+*.tmp
+*.bak
+.cache/
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+node_modules/
+dist/
+build/
+
+# Editor and OS state
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
